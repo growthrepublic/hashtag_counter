@@ -1,12 +1,10 @@
-# Sample rack-based application
+=======
+hashtag_counter
+===============
 
-Sample rack based application which can be easily deployed to [Shelly Cloud](https://shellycloud.com)
-
----
-
-See [Rack-based Apps](https://shellycloud.com/documentation/rack_based_apps) on shellycloud documentation for more information.
+Counts hash tags from twitter
 
 ## Launching application on your local machine
 
     bundle install
-    bundle exec thin start
+    bundle exec puma config.ru
